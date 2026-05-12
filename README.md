@@ -98,7 +98,7 @@ The workflow sets Hugo's `baseURL` automatically — **do not hardcode a URL** i
 
 ### Watching a deploy
 
-1. After you push to `main`, open the **Actions** tab in GitHub.
+1. After you push to `main`, open the **Actions** tab in GitHub .
 2. Click the most recent "Deploy Hugo site to Pages" run.
 3. A green check means the site is live at the URL above. A red X means the build failed — click into the failed step to see the error.
 
