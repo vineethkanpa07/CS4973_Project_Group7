@@ -45,10 +45,6 @@ As a parent, I want personalized recommendations based on my country and current
 As a parent, I want my child to stay engaged through interactive activities rather than long readings so that they actually continue using the platform
 As a parent in a country with low voter turnout, I want my child to understand why voting matters, so they become an active citizen in the future
 
-
-(/eurobarometer.jpg)
-
-
 ## Data Description
  
  We have data from three major sources: Eurostat, the World Bank, and eurobarometer. The eurostat and world bank data is mostly numeric and contains general summary statistics such as population, population density, GDP per capita, Urban population percentage, and tertiary education rates. Eurobarometer has categorical data of the public's opinion on the EU and their home countries. It contains data such as satisfaction with the EU, satisfaction with national government, and satisfaction with democracy. I wrote a python script to analyze our sources and have pasted some the script's output below.
