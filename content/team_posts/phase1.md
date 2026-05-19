@@ -9,7 +9,7 @@ authors:
   - "vineeth_kanpa"
   - "sidra_ansari"
   - "meghan_paclob"
-  - "bennett_lapides"
+  - "bennett"
 showAuthorsBadges: false
 ---
 
@@ -27,3 +27,8 @@ I contributed to the project’s phase one deliverable by developing ideas for o
 ## Sidra's Contribution
 
 ## Bennett's Contribution
+I contributed by investigating and analyzing data sources for our ML models using python. I have some output from eurobarometer below.
+
+<div style="display: flex; gap: 10px;">
+  <img src="/team_posts/eurobarometer.png" width="75%">
+</div>
