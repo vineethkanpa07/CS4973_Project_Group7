@@ -74,11 +74,29 @@ Behaviors:
 - Appreciates trustworthy, fact-based educational platforms
 
 Core Needs/User Stories:
-- As a parent, I want to see my child’s learning progress so that I know they are becoming more informed about EU politics and voting
-- As a parent, I want the app to explain EU topics in simple language so that I can understand and discuss them with my child
-- As a parent, I want personalized recommendations based on my country and current events so that the lessons actually feel relevant to our daily lives
-- As a parent, I want my child to stay engaged through interactive activities rather than long readings so that they actually continue using the platform
-- As a parent in a country with low voter turnout, I want my child to understand why voting matters, so they become an active citizen in the future
+As a parent, I want to see my child’s learning progress so that I know they are becoming more informed about EU politics and voting
+As a parent, I want the app to explain EU topics in simple language so that I can understand and discuss them with my child
+As a parent, I want personalized recommendations based on my country and current events so that the lessons actually feel relevant to our daily lives
+As a parent, I want my child to stay engaged through interactive activities rather than long readings so that they actually continue using the platform
+As a parent in a country with low voter turnout, I want my child to understand why voting matters, so they become an active citizen in the future
 
 
-!(/eurobarometer.jpg)
+(/eurobarometer.jpg)
+
+
+## Data Description
+ 
+ We have data from three major sources: Eurostat, the World Bank, and eurobarometer. The eurostat and world bank data is mostly numeric and contains general summary statistics such as population, population density, GDP per capita, Urban population percentage, and tertiary education rates. Eurobarometer has categorical data of the public's opinion on the EU and their home countries. It contains data such as satisfaction with the EU, satisfaction with national government, and satisfaction with democracy. I wrote a python script to analyze our sources and have pasted some the script's output below.
+
+
+ ![eurobarometer data](eurobarometer.png)
+ ![world bank and eurostat data](data_wb_eurostat.png)
+
+
+## Connection to Personas
+
+**Student:** The EU trust model using Eurobarometer data helps reveal what EU concepts students don't understand, making module personalisation easier.
+
+**Teacher:** Aggregate data like GDP per capita, unemployment rates, and tertiary education rates help teachers and module creators tailor content to their students based on country.
+
+**Parent:** Data like GDP per capita and unemployment rates connect real huworld economic conditions to EU policy, making the content more relevant to parents' daily lives.
