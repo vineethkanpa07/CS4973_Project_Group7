@@ -17,3 +17,7 @@ One thing I’ve found especially interesting during the Dialogue so far is lear
 # Trip Highlights
 
 One of the best parts of the experience has been meeting new people and exploring Belgium with them through EU visits, dinners, and nights out. One highlight was the pasta restaurant our group visited for dinner, which was my favorite meal so far.
+
+# Contribution
+
+I contributed to the project’s phase one deliverable by developing ideas for our machine learning models and writing the project description.
