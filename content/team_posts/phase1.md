@@ -74,11 +74,11 @@ Behaviors:
 - Appreciates trustworthy, fact-based educational platforms
 
 Core Needs/User Stories:
-As a parent, I want to see my child’s learning progress so that I know they are becoming more informed about EU politics and voting
-As a parent, I want the app to explain EU topics in simple language so that I can understand and discuss them with my child
-As a parent, I want personalized recommendations based on my country and current events so that the lessons actually feel relevant to our daily lives
-As a parent, I want my child to stay engaged through interactive activities rather than long readings so that they actually continue using the platform
-As a parent in a country with low voter turnout, I want my child to understand why voting matters, so they become an active citizen in the future
+- As a parent, I want to see my child’s learning progress so that I know they are becoming more informed about EU politics and voting
+- As a parent, I want the app to explain EU topics in simple language so that I can understand and discuss them with my child
+- As a parent, I want personalized recommendations based on my country and current events so that the lessons actually feel relevant to our daily lives
+- As a parent, I want my child to stay engaged through interactive activities rather than long readings so that they actually continue using the platform
+- As a parent in a country with low voter turnout, I want my child to understand why voting matters, so they become an active citizen in the future
 
 
 (/eurobarometer.jpg)
