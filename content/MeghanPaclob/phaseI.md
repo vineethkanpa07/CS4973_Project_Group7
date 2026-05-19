@@ -1,6 +1,6 @@
 ---
 title: "Phase I - The Beguinages"
-date: 2024-05-18
+date: 2026-05-19
 draft: false
 description: "My first blog post."
 # slug: "first"
