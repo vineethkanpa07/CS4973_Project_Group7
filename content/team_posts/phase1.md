@@ -19,8 +19,6 @@ Many EU citizens, especially younger students, struggle to understand how the Eu
 
 To enhance the learning experience, our platform will include two machine learning models trained on real datasets. Students will be able to input hypothetical data to build their own EU country and discover its predicted European Parliament election turnout levels. This model will use demographic and political indicators from EU countries to help learners understand factors that influence election participation. A second model will predict trust in EU institutions based on factors such as age, education, country of origin, and satisfaction with democracy. Students can take a diagnostic survey to determine the level of trust in the EU held by people who are similar to them. This will help achieve our goal of bolstering peoples' understanding of and engagement with European political systems.
 
-
-
 ## Personas
 
 ### Student 
