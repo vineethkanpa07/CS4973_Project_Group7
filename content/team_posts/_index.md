@@ -6,10 +6,13 @@ description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "vineeth_kanpa"
+  - "meghan_paclob"
+  - "sidra_ansari"
+  - "bennett_lapides"
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team VSMB!
 
-Welcome to the Professorial Team's Blog
+Welcome to the VSMB's Team Blog. You can navigate using the menus to find our posts.

@@ -37,6 +37,12 @@
    pageRef = "BennettLaPides"
    weight = 20
 
+[[main]]
+   name = "Meghan Paclob"
+   parent = "Team Members"
+   pageRef = "MeghanPaclob"
+   weight = 20
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"
