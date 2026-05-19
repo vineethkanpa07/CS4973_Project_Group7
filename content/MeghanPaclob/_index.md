@@ -2,4 +2,4 @@
 title: "Meghan Paclob"
 ---
 
-Hi, I'm Meghan, and I'm still figuring out what to put here!
+Hi, I'm Meghan, and I can't wait to work on this project!
