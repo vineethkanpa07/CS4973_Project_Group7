@@ -9,7 +9,7 @@ authors:
   - "vineeth_kanpa"
   - "sidra_ansari"
   - "meghan_paclob"
-  - "bennett_lapid
+  - "bennett_lapides"
 showAuthorsBadges: false
 ---
 
