@@ -15,9 +15,9 @@ showAuthorsBadges : false
 This dialogue has been an excellent experience so far and I'm grateful for the opportunity. Through visits to the European Parliament, the European Commission, and the EEAS I learned a lot about how the EU operates and the role computer science plays in governance. Belgium is a beautiful country too, everything here is really picturesque and the food is great. It's been a lot of fun exploring Brussels and Leuven, I can't wait to see more of the country.
 
 <div style="display: flex; gap: 10px;">
-  <img src="/BennettLaPides/parliament.png" width="30%">
-  <img src="/BennettLaPides/brussels.png" width="30%">
-  <img src="/BennettLaPides/townhall.png" width="30%">
+  <img src="../parliament.png" style="transform: rotate(0deg); width: 32%;" />
+  <img src="../brussels.png" style="transform: rotate(0deg); width: 32%;" />
+  <img src="../townhall.png" style="transform: rotate(0deg); width: 32%;" />
 </div>
 
 ### Phase 1 Deliverables
