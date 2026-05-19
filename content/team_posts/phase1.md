@@ -33,6 +33,4 @@ The teacher persona represents secondary school or university educators teaching
 
 ### Parent
 
-Parent
-
 The parent persona represents EU citizens who value education and want their child to become a more informed and active participant in democracy. Parents may not fully understand EU institutions themselves, so they prefer simple, trustworthy explanations that connect political topics to real-world issues such as jobs, inflation, and voting. They appreciate progress summaries and learning analytics that help them monitor their child’s engagement and development over time. Parents also want the platform to keep students interested through interactive activities that make EU politics feel relevant to their family’s daily lives and future.
