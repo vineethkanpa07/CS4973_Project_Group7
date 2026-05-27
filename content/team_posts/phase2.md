@@ -77,11 +77,15 @@ User Stories:
 
 ## Models
 
-![Localized Data Model](/localizedmodels.jpg)
+![Localized Data Model](/localizedmodels.png)
 
 ![Global Data Model](/globalmodels.jpg)
 
 ![Relational Data Model](/relationalmodel.jpg)
+
+## ML Model
+
+## Data Visualizations and EDA
 
 ## Wireframes
 
