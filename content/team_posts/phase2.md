@@ -87,6 +87,19 @@ User Stories:
 
 ## Data Visualizations and EDA
 
+Voter turnout has sharply decilined since the EU's inception and was hovering around 49% for the election in 2024. Cluster analysis of the data revealed that this decline isn't uniform; Western Europe's turnout has been steadily improving and sits at 63% for 2024 while Northern, Southern, and Eastern Europe are at 45.9%, 42.1%, and 42.9% respectivly with Northern and Southern Europe having decreased from the last election. The strongest predictors of voter turnout are urbanization rate (r=.495), corruption index (r=.355, slight caveat being that this data is only available from 2013 onwards), and gdp per capita (r=.250 all time, for 2024 its r=.58). Metrics like unemployment and population have practically 0 coorelation with turnout and should probably be dropped
+
+EU Trust, institutional opinions dominate everything. Metrics like gender, political leaning, and political interest don't seem to coorelate at all with trust in the EU. Interestingly enough age has a non linear relationship with EU Trust, it steadily decreases until 65 and then starts to rise again. It might be worth checking the other low metrics for non linear relationships. The biggest indicators of trust in EU are trust in politcians and satsifaction with democracy, both have a positive relationship with EU Trust.
+
+Some of the data raises colinearity concerns. The strongest two are gdp per capita and years in EU (r=.641) and gdp per capita and corruption index (r=.710). If we decide to use linear regression we will need to take a closer look and do some trial and error.
+
+![Eurobarometer csv](csv1.jpg)
+![Voter turnout csv](csv2.jpg)
+![Urbanization](fit_urbanization_rate.png)
+![Age](trust_by_age.png)
+
+
+
 ## Wireframes
 
 ### Student
