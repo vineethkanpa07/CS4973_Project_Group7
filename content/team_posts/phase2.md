@@ -85,6 +85,15 @@ User Stories:
 
 ## ML Model
 
+### Sourcing
+The preliminary implementation of the machine learning model involved a few challenges. The first main difficulty was in sourcing and putting together the dataset. European Parliament (EP) election voter turnout statistics, GDP per capita, corruption perception index, unemployment rate, urbanization rate, compulsory voting status, years of EU membership, and median age all had to be collected from separate sources. These sources included the European Parliament and World Bank. We then manually merged all our data into a single CSV file (there was one feature which was in a separate file that we merged in the notebook itself). 
+
+### Imputation and Date Alignment
+A second challenge was handling missing data, particularly for older election years where some values were unavailable. This was resolved using linear interpolation for each country, in order to fill gaps while ensuring that each country's historical trend was followed. Additionally, since national election turnout was added as a feature by merging a separate dataset, we had to align the dates since national elections don't occur on the same schedule as EP elections. We chose to use the rows that represented the closest years to the EP elections. 
+
+### Performance
+The model currently achieves an R² value of 0.57 and a mean absolute error of plus/minus 10.5 percentage points. Tasks that we still have to do include improving model performance by sourcing additional features like EU public approval ratings, and further hyperparameter tuning to avoid overfitting. We also have to integrate the model into the Streamlit app so users can interact with it (through the "build your own country" interface).
+
 ## Data Visualizations and EDA
 
 ## Wireframes

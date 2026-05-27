@@ -1,6 +1,6 @@
 ---
 title: "Week One"
-date: 2025-05-19
+date: 2026-05-19
 draft: false
 description: "What I did in my first week."
 #slug: "first"   # if you use, needs to be different for every post
