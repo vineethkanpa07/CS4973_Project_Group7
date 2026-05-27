@@ -2,7 +2,7 @@
 title: "Week One"
 date: 2025-05-19
 draft: false
-description: "PCA all the Way"
+description: "What I did in my first week."
 #slug: "first"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
