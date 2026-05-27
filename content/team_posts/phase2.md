@@ -106,4 +106,4 @@ User Stories:
 
 ### Home/Landing Page
 
-![Wireframe for home page](/homewf2.jpg)
+![Wireframe for home page](/homewf1.jpg)
