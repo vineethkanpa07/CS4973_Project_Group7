@@ -79,9 +79,9 @@ User Stories:
 
 ![Localized Data Model](/localizedmodels.png)
 
-![Global Data Model](/globalmodels.jpg)
+![Global Data Model](/globalmodels.png)
 
-![Relational Data Model](/relationalmodel.jpg)
+![Relational Data Model](/relationalmodel.png)
 
 ## ML Model
 

@@ -20,4 +20,4 @@ I think it was really fun to explore more of Belgium. Bruges is very pretty and 
 
 ## Photos !!
 ![Bruges, Lake of Love](/bruges-meg.jpg)
-![Ghent](assets/ghent-meg.jpg)
+![Ghent](assets/ghent-meg.JPG)
