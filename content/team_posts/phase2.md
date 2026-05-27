@@ -77,8 +77,8 @@ As a moderator, I want to identify modules with low completion or poor quiz perf
 
 ## Models
 
-![Localized Data Model](/localizedmodels.jpg)
+![Localized Data Model](localizedmodels.jpg)
 
-![Global Data Model](/globalmodels.jpg)
+![Global Data Model](globalmodels.jpg)
 
-![Relational Data Model](/relationalmodel.jpg)
+![Relational Data Model](relationalmodel.jpg)
