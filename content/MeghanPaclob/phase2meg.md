@@ -12,7 +12,7 @@ showAuthorsBadges : false
 
 ## Phase II Deliverable Contribution
 
-I worked with Sidra to revise and update our personas based on the feedback from Phase I. We also worked together in developing the local ER diagrams for each persona and combining them to create the global ER model. I mainly focused on the student and additional entities related to it. Namely, the survey entity, simulation, response, and question. I also focused on those tables in the relational model. Sidra and I worked together in actually doing the DDL based on the model.
+I worked with Sidra to revise and update our personas based on the feedback from Phase I. We also worked together in developing the local ER diagrams for each persona and combining them to create the global ER model. I mainly focused on the student and additional entities related to it. Namely, the survey entity, simulation, response, and question. I also focused on those tables in the relational model. Sidra and I worked together in actually doing the DDL based on the model. I did the 2 wireframes for the student persona.
 
 ## Week 2 
 

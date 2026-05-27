@@ -77,27 +77,27 @@ User Stories:
 
 ## Models
 
-![Localized Data Model](assets/localizedmodels.jpg)
+![Localized Data Model](/localizedmodels.jpg)
 
-![Global Data Model](assets/globalmodels.jpg)
+![Global Data Model](/globalmodels.jpg)
 
-![Relational Data Model](assets/relationalmodel.jpg)
+![Relational Data Model](/relationalmodel.jpg)
 
 ## Wireframes
 
 ### Student
 
-![Wireframe for student simulation](assets/studentwf1.jpg)
-![Wireframe for student dianositc survey](assets/studentwf2.jpg)
+![Wireframe for student simulation](/studentwf1.jpg)
+![Wireframe for student dianositc survey](/studentwf2.jpg)
 
 ### Teacher
 
-![Wireframe for teacher grading](assets/teacherwf1.jpg)
+![Wireframe for teacher grading](/teacherwf1.jpg)
 
 ### EU Official
 
-![Wireframe for eu official 1](assets/euwf1.jpg)
+![Wireframe for eu official 1](/euwf1.jpg)
 
 ### Home/Landing Page
 
-![Wireframe for home page](assets/homewf2.jpg)
+![Wireframe for home page](/homewf2.jpg)
