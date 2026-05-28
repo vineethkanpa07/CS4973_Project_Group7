@@ -74,6 +74,9 @@ User Stories:
 - As a moderator, I want to view platform-wide statistics such as active learners, module completion rates, and most popular topics so that I can evaluate the platform’s impact.
 - As a moderator, I want to identify modules with low completion or poor quiz performance so that I can prioritize them for improvement.
 
+## Updates to Personas
+After feedback from the last phase, we decided to change the parent persona to an EU Official. This allows for a more admin-based role for the website, where they can audit teacher and student activity. The student persona has also been expanded to all EU citizens who may be interested in learning more about politics, rather than being limited to the youth.
+
 
 ## Models
 
@@ -129,3 +132,5 @@ Some of the data raises colinearity concerns. The strongest two are gdp per capi
 ### Home/Landing Page
 
 ![Wireframe for home page](/homewf1.jpg)
+
+
