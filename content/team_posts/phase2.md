@@ -144,14 +144,14 @@ Trust in parliament and trust in politicians are themselves correlated (r=0.479)
 
 ### Teacher
 
-![Wireframe for teacher grading](/teacherwf1.png)
+![Wireframe for teacher grading](/teacherwf1.jpg)
 ![Wireframe for teacher](/teacherwf2.jpg)
 
 ### EU Official
 
-![Wireframe for eu official 1](/euwf1.png)
+![Wireframe for eu official 1](/euwf1.jpg)
 ![Wireframe for eu official 2](/euwf2.jpg)
 
 ### Home/Landing Page
 
-![Wireframe for home page](/homewf1.png)
+![Wireframe for home page](/homewf1.jpg)
