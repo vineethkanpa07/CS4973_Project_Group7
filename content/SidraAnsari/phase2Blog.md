@@ -12,7 +12,7 @@ showAuthorsBadges : false
 
 ## Individual Contributions
 
-After redesigning our parents persona to be an EU Official, I helped ideate how to implement the data models seamlessly in the role. I developed the structure for the global data model relating to the lesson components, including response, question, and assessments. This was important in connecting the localized data models. I primarily focused on the teacher and EU official roles as those were more complicated in implementing with the students. I also helped restructure the DDL, as it was important to ensure the correct tables were connected with accuracy and less complications.
+After redesigning our parents persona to be an EU Official, I helped ideate how to implement the data models seamlessly in the role. I developed the structure for the global data model relating to the lesson components, including response, question, and assessments. This was important in connecting the localized data models. I primarily focused on the teacher and EU official roles as those were more complicated in implementing with the students. I also helped restructure the DDL, as it was important to ensure the correct tables were connected with accuracy and less complications. I developed the DDL alongside one wireframe for the teacher persona and one for the EU Official.
 
 ## Second Week in Leuven
 
