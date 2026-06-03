@@ -96,18 +96,41 @@ The model currently achieves an R² value of 0.57 and a mean absolute error of p
 
 ## Data Visualizations and EDA
 
-Voter turnout has sharply decilined since the EU's inception and was hovering around 49% for the election in 2024. Cluster analysis of the data revealed that this decline isn't uniform; Western Europe's turnout has been steadily improving and sits at 63% for 2024 while Northern, Southern, and Eastern Europe are at 45.9%, 42.1%, and 42.9% respectivly with Northern and Southern Europe having decreased from the last election. The strongest predictors of voter turnout are urbanization rate (r=.495), corruption index (r=.355, slight caveat being that this data is only available from 2013 onwards), and gdp per capita (r=.250 all time, for 2024 its r=.58). Metrics like unemployment and population have practically 0 coorelation with turnout and should probably be dropped
+### Voter Turnout
 
-EU Trust, institutional opinions dominate everything. Metrics like gender, political leaning, and political interest don't seem to coorelate at all with trust in the EU. Interestingly enough age has a non linear relationship with EU Trust, it steadily decreases until 65 and then starts to rise again. It might be worth checking the other low metrics for non linear relationships. The biggest indicators of trust in EU are trust in politcians and satsifaction with democracy, both have a positive relationship with EU Trust.
+Voter turnout has declined sharply since the EU's inception, sitting at 48.8% in 2024. This decline isn't uniform across regions though. Western Europe's turnout has been steadily improving and sits at 62.9% for 2024, while Southern, Eastern, and Northern Europe average 45.9%, 42.9%, and 42.1% respectively.
 
-Some of the data raises colinearity concerns. The strongest two are gdp per capita and years in EU (r=.641) and gdp per capita and corruption index (r=.710). If we decide to use linear regression we will need to take a closer look and do some trial and error.
+{{< iframe src="region_turnout_trend.html" width="100%" height="600" >}}
 
-![Eurobarometer csv](csv1.jpg)
-![Voter turnout csv](csv2.jpg)
-![Urbanization](fit_urbanization_rate.png)
-![Age](trust_by_age.png)
+{{< iframe src="region_avg_turnout_2024.html" width="100%" height="550" >}}
 
+The strongest continuous predictors of voter turnout are urbanization rate (r=0.495), years of EU membership (r=0.390), corruption index (r=0.355, but only available from 2013 onwards), and GDP per capita (r=0.250). Using corruption index as a predictor will be difficult since we'd need to impute a lot of missing values, it might be better to just drop it. Unemployment (r=-0.117) and population (r=0.055) show weak linear correlations, but it's worth investigating further since the relationships might not be linear. Population in particular seems dominated by large countries like Germany, France, Italy, and Spain, so a log transform might be worth trying. Compulsory voting shows a large group difference: countries with enforced compulsory voting average 75.8% turnout versus 46.4% for voluntary.
 
+{{< iframe src="fit_urbanization_rate.html" width="100%" height="600" >}}
+
+Median age shows a weak negative linear correlation with turnout (r=-0.27), though the relationship doesn't look strongly linear and may be worth revisiting during model development.
+
+Corruption index shows a positive relationship with turnout (r=0.355), though the limited data window (2013 onwards) means this should be interpreted with caution.
+
+{{< iframe src="fit_corruption_index.html" width="100%" height="600" >}}
+
+Collinearity is a concern for several feature pairs: GDP per capita vs years of EU membership (r=0.641), GDP per capita vs corruption index (r=0.710), and GDP per capita vs urbanization rate (r=0.464). If we go with linear regression we'll need to take a closer look and do some trial and error to figure out which features to keep.
+
+### EU Trust
+
+Our second model is going to predict EU trust, using a cleaned dataset derived from the Eurobarometer survey. The dataset covers 25,936 individual respondents from the Autumn 2024 wave.
+
+Institutional opinions dominate. The strongest predictors of EU trust are trust in parliament (r=-0.394), satisfaction with democracy (r=-0.367), and trust in politicians (r=-0.300). These correlations are negative because of how the Eurobarometer records responses, higher values mean less trust or satisfaction. So the data is actually showing that people who are more satisfied with democracy and trust their politicians tend to trust the EU more. Opinions on politics seem to matter a lot.
+
+{{< iframe src="trust_by_parliament.html" width="100%" height="550" >}}
+
+Features like gender (r=0.010) and left-right political placement (r=-0.023) show negligible linear correlations, but as with the turnout model, weak linear correlation doesn't mean no relationship and we'll need to investigate further.
+
+Age has a non-linear, U-shaped relationship with EU trust. It declines from 67.4% among 15-24 year olds to a low of 51.5% among 55-64 year olds, before rising again to 62.4% among those 75 and older. It's worth checking other low-correlation features for similar patterns before dismissing them.
+
+{{< iframe src="trust_by_age.html" width="100%" height="550" >}}
+
+Trust in parliament and trust in politicians are themselves correlated (r=0.479), which suggests a shared institutional trust factor. Including both risks multicollinearity, so we'll need to address that during model development.
 
 ## Wireframes
 
