@@ -15,6 +15,10 @@ showAuthorsBadges: false
 
 ## Project Updates
 
+On the DS side, ...... 
+
+On the CS side, the personas were finalized and implemented into routes that were integrated in the REST API. Mock data was also generated that has been implemented in the routes, alongside the voter turnout dataset.
+
 
 ## Machine Learning Features
 
@@ -291,3 +295,7 @@ This provides the option for a lesson to be deleted. This is operable by the EU 
 
 
 ## App Screenshots and Implementation
+
+## Plans for Final Phase
+
+As the project wraps up, we are looking to fully integrate both data models into our routing. Implementing all the routes will serve as the complete backend for the app. Ensuring all the pages have all features done will be the most time-consuming part, as making sure everything connects may prove challenging.
