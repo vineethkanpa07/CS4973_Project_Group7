@@ -20,3 +20,6 @@ An issue I kept running into was the "api" container was not running. This cause
 ## Traveling Europe
 
 Although tumultuous, I had a great time traveling to France and Luxembourg this past weekend. Walking around Strasbourg was a lot of fun, and exploring the cities of France will be a core memory for me. In Luxembourg, we went to the theater to watch _Obsession_, and it was definitely an interesting watch!
+
+sidrastrasbourg.png
+![Strasbourg!](/sidrastrasbourg.png)

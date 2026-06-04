@@ -33,7 +33,7 @@ The remaining five features make sense intuitively. More educated people are mor
 
 During this phase, we developed the routes that serve as the basis for the app. Originally, we framed these routes around the different personas based on our DDL, but quickly realized that it made more sense to have a "user" attribute serve as the core of the user definition rather than completely separating the personas.
 
-![REST API Matrix](/restapimatrix.jpg)
+![REST API Matrix](/restapimatrix.png)
 
 This is the tentative matrix we developed in order to initialize the route creation. It includes at least one CRUD operation. 
 

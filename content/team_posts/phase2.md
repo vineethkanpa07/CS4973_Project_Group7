@@ -140,7 +140,7 @@ Trust in parliament and trust in politicians are themselves correlated (r=0.479)
 ### Student
 
 ![Wireframe for student simulation](/studentwf1.jpg)
-![Wireframe for student dianositc survey](/studentwf2.jpg)
+![Wireframe for student diagnostic survey](/studentwf2.jpg)
 
 ### Teacher
 
