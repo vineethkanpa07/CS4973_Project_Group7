@@ -1,5 +1,5 @@
 ---
-title: "Week Two Reflection"
+title: "Politics & Platforms: Week Two Reflection"
 date: 2026-05-27
 draft: false
 description: "Politics & Platforms"
