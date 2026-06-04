@@ -31,10 +31,10 @@ During this phase, we developed the routes that serve as the basis for the app. 
 
 ![REST API Matrix](/restapimatrix.jpg)
 
-This is the tentative matrix we developed in order to initialize the route creation.
+This is the tentative matrix we developed in order to initialize the route creation. It includes at least one CRUD operation. 
 
 <details>
-<summary>Click to expand SQL query</summary>
+<summary>Click to view the Phase 3 developments of the routes.</summary>
 
 ```sql
 from flask import Blueprint, request, jsonify
@@ -254,6 +254,40 @@ def turnout_prediction():
 
 </details>
 
+
+Below is an explanation of an example of each of the operations we did.
+
+
+
+1. CREATE (POST)
+
+POST /lessons
+
+This inserts a new lesson into the database and assigns it a lessonID;
+
+
+
+2. READ (GET)
+
+GET /lessons
+
+This selects one specific lesson based on the lessonID.
+
+
+
+3. UPDATE (PUT)
+
+PUT /lessons/12
+
+This allows for a lesson to be modified.
+
+
+
+4. DELETE (DELETE)
+
+DELETE /lessons/12
+
+This provides the option for a lesson to be deleted. This is operable by the EU Official who has the power to delete a lesson.
 
 
 ## App Screenshots and Implementation
