@@ -314,6 +314,25 @@ This provides the option for a lesson to be deleted. This is operable by the EU 
 
 ## App Screenshots and Implementation
 
+Fig 1. ![Landing page for role selection](/landingpagep3.png)
+This is the landing page of the website with the ability for the user to select one of the user personas.
+
+Fig 2.![Dashboard page for student role](/student_dash_p3.png)
+This is the home or dashboard page for the student role. For now, it's mainly placeholder data/text. In the future,
+the user will be able to see their lesson progress, class grade, unique quizzes associated with the topic, and content related to the topic and lesson.
+
+Fig 3. ![Simulation page for student](/student_simulation_p3.png)
+This is the simulation page where the student can explore the variety of factors that affect voter turnout. The user can create their own country name and a number of statistics, and see the predicted voter turn out.
+
+Fig 4. ![Simulation result change for student](/student_sim_result_p3.png)
+This is an image to show that the prediction model is fully implemented. For now, it's a simple update at the bottom of the screen, but for the final phase it will be expanded upon with increased responsiveness.
+
+Fig 5. ![Survey page for student](/student_survey_p3.png)
+This is almost entirely a mock up page for the student to take an optional diagnostic survey to determine a level of trust. This is where the second model will come in and will later be fully implemented.
+
+Fig 6. ![Dashboard page for teacher role](/teacher_dash_p3.png)
+This is home or dashboard page for the teacher role. It's mainly placeholder for now, but info displayed will eventually be connected to the existing mock data rather than hard coded. 
+
 ## Plans for Final Phase
 
 As the project wraps up, we are looking to fully integrate both data models into our routing. Implementing all the routes will serve as the complete backend for the app. Ensuring all the pages have all features done will be the most time-consuming part, as making sure everything connects may prove challenging.
