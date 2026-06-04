@@ -10,7 +10,7 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Phase 2 Deliverables
+## Phase 2 Deliverables
 
 My primary contributions for this phase were the data visulations, EDA, and further data cleaning. The first thing I did wasa to compile the data we gathered in phase one into 3 seperate csvs. One contains data such as gdp per capita, population, urbanization rate, etc. All information that is going to be used to predict voter turnout. The second csv is the heavily cleaned eurobarometer data which is going to be used to predict eu trust and the third is just suplimetary statistics. 
 

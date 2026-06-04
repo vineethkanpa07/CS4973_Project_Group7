@@ -1,6 +1,6 @@
 ---
 title: "Phase III"
-date: 2026-06-4
+date: 2026-06-04
 draft: false
 description: "EUtopia Week 3"
 #slug: "phase1post"
