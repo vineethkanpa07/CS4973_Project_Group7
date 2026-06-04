@@ -1,5 +1,5 @@
 ---
-title: "Phase I - The Beguinages"
+title: "Phase I Individual Post"
 date: 2026-05-19
 draft: false
 description: "My first blog post."
