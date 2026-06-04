@@ -1,5 +1,5 @@
 ---
-title: "Week/Phase II"
+title: "Phase II Individual Post"
 date: 2026-05-27
 draft: false
 description: "My blog post for contributions to phase II and about the second week of the program."
