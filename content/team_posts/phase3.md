@@ -33,7 +33,10 @@ During this phase, we developed the routes that serve as the basis for the app. 
 
 This is the tentative matrix we developed in order to initialize the route creation.
 
-```
+<details>
+<summary>Click to expand SQL query</summary>
+
+```sql
 from flask import Blueprint, request, jsonify
 from backend.db_connection import get_db
 from backend.ml_models.voter_turnout_model import predict_turnout
@@ -248,6 +251,9 @@ def turnout_prediction():
         "inputs": data
     })
 ```
+
+</details>
+
 
 
 ## App Screenshots and Implementation
