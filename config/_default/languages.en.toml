@@ -2,8 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Welcome to EUtopia! 
-Summer 2026 Data and Software DoC Blog"
+title = "Welcome to EUtopia! Summer 2026 Data and Software DoC Blog"
 
 [params]
   displayName = "EN"
