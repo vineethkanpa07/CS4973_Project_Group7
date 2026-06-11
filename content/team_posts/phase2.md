@@ -80,7 +80,11 @@ After feedback from the last phase, we decided to change the parent persona to a
 
 ## Models
 
-![Localized Data Model](/localizedmodels.png)
+![Student Data Model](/studentmodel.png)
+
+![Teacher Data Model](/teachermodel.png)
+
+![EU Official Data Model](/euofficialmodel.png)
 
 ![Global Data Model](/globalmodels.png)
 
