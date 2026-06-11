@@ -17,6 +17,6 @@ For the past week I've been working primarily on the student pages of the web ap
 The past week I mainly worked on the project, tried a lot of new food, and did some shopping for myself but mainly souvenirs for friends and family back home. As for food, I really liked the malatang place and was honestly really surprised it even existed here in Leuven. I also tried the Japanese cheesecake from Uncle Puffy and that was really good too. Despite how much I have enjoyed my time on the Dialogue, I'm excited to go back to Boston and see my friends again.
 
 ## Photos !!
-![My Malatang](/maltangmeg.jpg)
-![My Cheescake](/cheescakemeg.jpg)
-![Bear](/bearmeg.jpg)
+![My Malatang](/maltangmeg.jpeg)
+![My Cheescake](/cheescakemeg.jpeg)
+![Bear](/bearmeg.jpeg)
