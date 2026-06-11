@@ -15,7 +15,7 @@ showAuthorsBadges: false
 
 ## Project Updates
 
-On the DS side, ...... 
+
 
 
 

@@ -651,3 +651,19 @@ pre {
   .2xl\:ratio-21-9 { padding-top: 42.85%; } /* 21:9 Aspect Ratio */
   .2xl\:ratio-32-9 { padding-top: 28.125%; } /* 32:9 Aspect Ratio */
 }
+
+header a,
+header button,
+nav a,
+nav button,
+.menuhide a {
+  color: white !important;
+}
+
+header a:hover,
+header button:hover,
+nav a:hover,
+nav button:hover,
+.menuhide a:hover {
+  color: white !important;
+}
