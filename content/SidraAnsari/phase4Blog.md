@@ -3,7 +3,7 @@ title: "Github & Goodbyes: Week Four Reflection"
 date: 2026-06-11
 draft: false
 description: "Github & Goodbyes"
-#slug: "first"   # if you use, needs to be different for every post
+#slug: "fourth"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "sidra_ansari"

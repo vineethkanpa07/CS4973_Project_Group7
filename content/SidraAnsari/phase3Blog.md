@@ -3,7 +3,7 @@ title: "Roaming & REST APIs: Week Three Reflection"
 date: 2026-06-04
 draft: false
 description: "Roaming & REST APIs"
-#slug: "first"   # if you use, needs to be different for every post
+#slug: "third"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "sidra_ansari"

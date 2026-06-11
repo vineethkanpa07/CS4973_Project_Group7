@@ -3,7 +3,7 @@ title: "Politics & Platforms: Week Two Reflection"
 date: 2026-05-27
 draft: false
 description: "Politics & Platforms"
-#slug: "first"   # if you use, needs to be different for every post
+#slug: "second"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "sidra_ansari"
