@@ -15,11 +15,8 @@ showAuthorsBadges: false
 
 ## Project Updates
 
-<<<<<<< HEAD
 
-=======
 ### The Voter Turnout and KNN Model
->>>>>>> 0684502b435c8d236230fd0b87c5c8ae367b62ec
 
 The voter turnout model is a linear regression trained on 184 observations of EU parliamentary elections from 1979 to 2024. The six core features (compulsory voting, region, median age, unemployment rate, population, and national turnout) are the same as phase 3, along with the same nonlinear terms. We use LOO-CV as the primary evaluation metric rather than a standard train/test split because the dataset is small enough that a single split would be unreliable. A standard 80/20 split gave us a train R² of 0.85 and a test R² of 0.81, which was too optimistic. LOO-CV brought that down to 0.79 with an RMSE of 8.8 percentage points, which is probably a more honest figure.
 
@@ -34,6 +31,10 @@ The three big assumptions have been verified. The residuals vs fitted plot check
 The residuals vs order plot checks for autocorrelation, there isn't an obvious pattern
 .
 {{< iframe src="residuals_vs_order.html" width="100%" height="600" >}}
+
+### EU Trust Classifier Model
+
+The EU Trust Classifier is a logistic regression model that predicts whether an individual trusts the European Union based on five survey inputs: education level, trust in national parliament, trust in politicians, satisfaction with democracy, and left-right political orientation. Trained on over 20,000 Eurobarometer survey responses with a testing accuracy of 73.2%, the model is integrated into the student diagnostic survey. Students answer a short questionnaire and the model predicts whether they trust the EU without asking them directly (avoiding social desirability bias, a well-documented phenomenon that can occur when studying EU trust levels). For EU officials, acts as a monitoring tool. As students complete surveys, the admin dashboard aggregates all predictions and visualizes trust distribution across education levels and political orientations in real time. This gives EU officials a better idea of where trust is strongest and weakest among the student population, which can inform decisions about civic education priorities.
 
 ### Architecture
 

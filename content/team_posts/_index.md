@@ -1,5 +1,5 @@
 ---
-title: "Project - Phase I"
+title: "EUtopia"
 date: 2026-05-19
 draft: false
 description: "Our Idea"
