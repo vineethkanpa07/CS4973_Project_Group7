@@ -1,5 +1,5 @@
 ---
-title: "Week One Reflection"
+title: "Bytes & Bills: Week One Reflection"
 date: 2026-05-19
 draft: false
 description: "Bytes & Bills"
