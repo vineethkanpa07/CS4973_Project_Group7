@@ -1,6 +1,6 @@
 ---
 title: "Phase IV Individual Post"
-date: 2026-06-11
+date: 2026-06-10
 draft: false
 description: "My blog post for contributions to phase IV and about the last week of the program."
 # slug: "first"
