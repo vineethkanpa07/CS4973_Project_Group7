@@ -16,9 +16,8 @@ For Phase III, my primary contributions were the development and validation of t
 
 
 ### Plots
-![Correlation Matrix Heatmap](assets/heatmap.png)
-![Correlation Matrix Heatmap](assets/outliers.png)
-
+![Correlation Matrix Heatmap](/heatmap.png)
+![Outlier Box Plots](/outliers.png)
 
 
 ### Recent Highlights
