@@ -13,9 +13,6 @@ authors:
 showAuthorsBadges: false
 ---
 
-## Project Updates
-
-
 ### The Voter Turnout and KNN Model
 
 The voter turnout model is a linear regression trained on 184 observations of EU parliamentary elections from 1979 to 2024. The six core features (compulsory voting, region, median age, unemployment rate, population, and national turnout) are the same as phase 3, along with the same nonlinear terms. We use LOO-CV as the primary evaluation metric rather than a standard train/test split because the dataset is small enough that a single split would be unreliable. A standard 80/20 split gave us a train R² of 0.85 and a test R² of 0.81, which was too optimistic. LOO-CV brought that down to 0.79 with an RMSE of 8.8 percentage points, which is probably a more honest figure.
