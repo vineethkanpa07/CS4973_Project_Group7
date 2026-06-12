@@ -13,6 +13,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to Team VSMB!
+# Welcome to EUtopia!
 
-Welcome to the VSMB's Team Blog. You can navigate using the menus to find our posts.
+Welcome to our weekly Team Blog. You can navigate using the menus to find our posts.
