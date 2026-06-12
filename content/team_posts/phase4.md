@@ -19,7 +19,7 @@ The voter turnout model is a linear regression trained on 184 observations of EU
 
 The KNN model is built on top of the voter turnout model. It uses the same 11 features and the same scaler, fit on the same 184 observations with k=1. When a student runs a country simulation, KNN finds the single most similar real country-year observation in the training data and returns it alongside the prediction. The idea is to give context and a point of refrence to the student's country simulations.
 
-### Assumption checks
+### Assumption Checks
 
 The three big assumptions have been verified. The residuals vs fitted plot checks linearity and homoscedasticity. The scatter looks pretty random around zero which is good, though there is some mild spread in the middle range. The high-turnout cluster on the right side is Belgium and Luxembourg, whose consistently high turnout is handled by the compulsory x Western interaction term.
 
@@ -51,7 +51,6 @@ The backend is organized using Flask Blueprints which allows routes to be separa
 The database stores all persistent application data, including users, roles, classes, lessons, assessments, questions, student responses, progress records, simulations, diagnostic survey results, platform metrics, and machine learning model parameters. The machine learning features are also connected through backend routes. For example, the country simulation sends user inputs to the voter turnout prediction endpoint, which returns a predicted EU election turnout and saves the result to the student's simulation history.
 
 
-
 ## Final Database Model
 
 The final database model centers around users and their roles. The "Users" table stores account information, while "Roles" and "UserRole" allow each user to be assigned as a student, teacher, or EU official. Teachers are connected to classes through the "Class" table, and students are connected to classes through "StudentProfile." 
@@ -73,3 +72,9 @@ Overall, the database model supports the full flow of the application: users log
 
 
 ## Reflection
+
+Developing EUtopia from (almost) scratch provided valuable experience in designing and implementing a full-stack software system. Throughout the course of the project, our team learned how to integrate a Streamlit frontend, Flask REST API backend, MySQL databases, and machine learning components into one website. Separating the functionalities into different route files and organizing the database around user roles made the system easier to maintain.
+
+
+
+One of the most important lessons we learned was the importance of designing a database model and architecture that is flexible. As we ideated more and wanted to implement more features such as lesson approval and multiple-choice questions, the already existing structure allowed these additions to be incorporated without redesigning heavily. Working on EUtopia also strengthened our understanding of concepts learned in our CS and DS classes such as REST APIs and database design. Since we were also immersed in collaboration through Git and Github, we learned to communicate effectively and work towards one common goal. Overall, this project was fulfilling in understanding how basic architecture principles can transform a basic idea into a fully functional education platform.

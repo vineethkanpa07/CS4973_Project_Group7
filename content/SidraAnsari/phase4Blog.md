@@ -27,6 +27,6 @@ A lot of troubleshooting also had to be done because the basic program had every
 
 ## Goodbye Leuven!
 
-Though I am sad to be leaving Leuven, I am excited to return to the beautiful land of New Jersey. I have made lasting memories here and will cherish them as I go back to the US.
+My favorite moments of this week were the chocolate-making class and the EnergyVille Labs (as an ECE major I found it super interesting!). My least favorite part was the escape room because although it was a lot of fun, we unfortunately failed due to factors beyond our control. Though I am sad to be leaving Leuven, I am excited to return to the beautiful land of New Jersey. I have made lasting memories here and will cherish them as I go back to the US.
 
 ![On a Ferris wheel in Antwerp!](/sidphase4.png)
